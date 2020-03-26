@@ -1,0 +1,21 @@
+.video__container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 323px;
+  grid-column-gap: 18px;
+  margin-top: 72px;
+  max-width: 1184px;
+  position: relative;
+}
+
+@media screen and (max-width: 1030px) {
+  .video__container {
+      max-height: 288px;
+  }
+}
+
+@media screen and (max-width: 770px) {
+  .video__container {
+      height: 200px;
+  }
+}

@@ -1,0 +1,15 @@
+@import url(./__container/comments__container.css);
+
+.comments {
+  padding-top: 100px;
+  width: 100%;
+  max-width: 1184px;
+  display: flex;
+  flex-direction: column;
+}
+
+@media screen and (max-width: 1030px) {
+  .comments {
+      max-width: 92vw;
+  }
+}

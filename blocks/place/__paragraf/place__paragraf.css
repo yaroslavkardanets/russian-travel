@@ -1,0 +1,9 @@
+.place__paragraf {
+  align-self: start;
+  margin-top: 0;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 30px;
+  grid-area: place__paragraf;
+  width: 100%;
+}

@@ -1,0 +1,15 @@
+.intro__text-advantages {
+  list-style: none;
+  text-decoration: none;
+  padding-left: 0;
+  font-weight: bold;
+  font-size: 13px;
+  line-height: 20px;
+}
+
+@media screen and (max-width: 760px) {
+  .intro__text-advantages {
+    font-size: 12px;
+    line-height: 19px;
+  }
+}
