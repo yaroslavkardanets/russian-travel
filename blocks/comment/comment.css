@@ -3,9 +3,13 @@
 @import url(./__autor/comment__autor.css);
 
 @media screen and (max-width: 770px) {
-  .comments__container {
+  .comment {
     display: flex;
     flex-direction: column;
     align-content: center;
+    margin-top: 48px;
+  }
+  .comment:first-of-type {
+    margin-top: 0;
   }
 }

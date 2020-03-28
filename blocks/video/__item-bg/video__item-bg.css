@@ -8,11 +8,5 @@
   bottom: 0;
   object-fit: cover;
   object-position: center;
-  border-radius: 5px;
-}
-
-@media screen and (max-width: 770px) {
-  .video__item-bg {
-      height: 200px;
-  }
+  border-radius: 8px;
 }

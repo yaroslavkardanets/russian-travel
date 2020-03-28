@@ -6,6 +6,7 @@
   text-decoration: none;
   margin-right: 18px;
   list-style: none;
+  transition: opacity .2s linear;
 }
 
 .header__lang:last-of-type {
@@ -13,5 +14,5 @@
 }
 
 .header__lang:hover {
-  text-decoration-line: underline;
+  opacity: 60%;
 }

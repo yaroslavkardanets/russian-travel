@@ -2,7 +2,6 @@
 @import url(./__duration/video__duration.css);
 @import url(./__icon_play/video__icon_play.css);
 @import url(./__item-bg/video__item-bg.css);
-@import url(./__item-bg/video__item-bg_dark.css);
 @import url(./__item/video__item.css);
 @import url(./__subtitle/video__subtitle.css);
 @import url(./__title/video__title.css);
@@ -13,10 +12,17 @@
   display: flex;
   flex-direction: column;
   position: relative;
+  box-sizing: border-box;
 }
 
 @media screen and (max-width: 1030px) {
   .video {
       max-width: 92vw;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .video {
+      padding-top: 64px;
   }
 }

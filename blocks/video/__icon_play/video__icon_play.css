@@ -1,3 +1,20 @@
 .video__icon_play {
   z-index: 2;
+  position: absolute;
+  top: 28px;
+  left: 28px;
+}
+
+@media screen and (max-width: 770px) {
+  .video__icon_play {
+      top: 24px;
+     left: 24px;
+  }
+}
+
+@media screen and (max-width: 352px) {
+  .video__icon_play {
+      top: 16px;
+     left: 16px;
+  }
 }

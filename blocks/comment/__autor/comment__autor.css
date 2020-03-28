@@ -3,3 +3,9 @@
   font-size: 14px;
   line-height: 22px;
 }
+
+@media screen and (max-width: 770px) {
+  .comment__autor {
+    margin: 16px auto 0 auto;
+  }
+}

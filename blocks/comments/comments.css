@@ -1,7 +1,7 @@
 @import url(./__container/comments__container.css);
 
 .comments {
-  padding-top: 100px;
+  padding: 100px 0 100px 0;
   width: 100%;
   max-width: 1184px;
   display: flex;
@@ -11,5 +11,11 @@
 @media screen and (max-width: 1030px) {
   .comments {
       max-width: 92vw;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .comments {
+    padding: 64px 0 64px 0;
   }
 }
