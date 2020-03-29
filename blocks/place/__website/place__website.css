@@ -1,6 +1,7 @@
 .place__website {
   align-self: end;
   grid-area: place__website;
+  width: 100%;
 }
 
 @media screen and (max-width: 760px) {

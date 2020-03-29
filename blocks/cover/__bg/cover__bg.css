@@ -4,10 +4,6 @@
   position: absolute;
   top: 0;
   left: 0;
-  background-color: rgba(0, 0, 0, .3);
-  transition: background-color .5s linear;
+  background-color: rgba(42, 44, 47, .3);
 }
 
-.cover__bg:hover {
-  background-color: rgba(0, 0, 0, .6);
-}

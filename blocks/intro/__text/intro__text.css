@@ -2,13 +2,11 @@
   font-weight: normal;
   font-size: 14px;
   line-height: 24px;
-  width: 70%;
 }
 
 @media screen and (max-width: 760px) {
-  .intro__text {
+  .intro__text_content-row {
     font-size: 16px;
     line-height: 27px;
-    width: 100%;
   }
 }

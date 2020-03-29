@@ -4,8 +4,8 @@
   line-height: 65px;
   margin: 0;
   align-self: end;
+  width: 100px;
   grid-area: place__title;
-  max-width: 450px;
 }
 
 @media screen and (max-width: 1000px) {
@@ -19,6 +19,8 @@
   .place__title {
     font-size: 32px;
     line-height: 35px;
-    margin-bottom: auto;
+    margin-bottom: 8px;
+    padding: 0 4vw;
+    width: 92%;
   }
 }

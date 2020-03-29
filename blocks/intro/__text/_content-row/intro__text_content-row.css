@@ -1,0 +1,11 @@
+.intro__text_content-row {
+  margin-top: 48px;
+  margin-bottom: 0;
+  width: 70%;
+}
+
+@media screen and (max-width: 760px) {
+  .intro__text_content-row {
+    width: 100%;
+  }
+}

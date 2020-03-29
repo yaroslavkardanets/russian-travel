@@ -1,11 +1,11 @@
 @import url(./__link/footer__link.css);
 @import url(./__copyright/footer__copyright.css);
 @import url(./__links/footer__links.css);
+@import url(./__nav/footer__nav.css);
 
 .footer {
   max-width: 1184px;
   width: 100%;
-  min-height: 24px;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;

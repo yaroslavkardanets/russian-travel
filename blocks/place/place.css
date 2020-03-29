@@ -8,25 +8,37 @@
 
 .place {
   display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: auto 1fr;
   grid-template-areas: 
       "place__title place__website"
       "place__image place__paragraf";
   grid-gap: 60px 40px;
   margin-top: 72px;
+ /** box-sizing: border-box; */
 }
 
 @media screen and (max-width: 1030px) {
   .place {
-      max-width: 92vw;
-      grid-gap: 40px 30px;
+      grid-gap: 40px 32px;
+  }
+}
+
+@media screen and (max-width: 1030px) {
+  .place {
+      grid-gap: 40px 28px;
   }
 }
 
 @media screen and (max-width: 760px) {
   .place {
+    width: 100%;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto 1fr auto;
     grid-template-areas: 
       "place__title"
       "place__image"
       "place__paragraf";
+    grid-row-gap: 24px;
   }
 }

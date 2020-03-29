@@ -4,6 +4,20 @@
   font-weight: normal;
   font-size: 18px;
   line-height: 30px;
-  grid-area: place__paragraf;
   width: 100%;
+  grid-area: place__paragraf;
+}
+
+@media screen and (max-width: 1030px) {
+  .place__paragraf {
+      font-size: 16px;
+      line-height: 27px;
+  }
+}
+
+@media screen and (max-width: 760px) {
+  .place__paragraf {
+    padding: 0 4vw;
+    width: 92%;
+  }
 }
