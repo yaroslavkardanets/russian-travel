@@ -1,12 +1,7 @@
+@import url(./__content-row/intro__content-row.css);
+@import url(./__list-bold/intro__list-bold.css);
 @import url(./__title/inro__title.css);
-@import url(./__text/intro__text.css);
-@import url(./__text/_content-row/intro__text_content-row.css);
-@import url(./__text/_list/intro__text_list_bold.css);
-@import url(./__text/_list/intro__text_list_normal.css);
-
-
-@import url(./__text-advantages/intro__text-advantages.css);
-@import url(./__text-advantages/_normal/intro__text-advantages_normal.css);
+@import url(./__list-normal/intro__list-normal.css);
 
 
 .intro {
