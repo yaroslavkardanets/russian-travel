@@ -9,3 +9,7 @@
   transition: background-color .5s linear;
   border-radius: 8px;
 }
+
+.video__item-dark:hover {
+  background-color: rgba(0, 0, 0, .7);
+}
